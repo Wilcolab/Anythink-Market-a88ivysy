@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import agentObj from './agent'; // Import the API agent
+import agentObj from '../../agent'; // Import the API agent
 import { debounce } from 'lodash'; // Use lodash for debouncing
 
 const SearchBox = () => {
