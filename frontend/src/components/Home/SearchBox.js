@@ -38,7 +38,7 @@ const SearchBox = () => {
   }, [searchTerm]); // Depend on searchTerm to trigger effect
 
   return (
-    <div className="search_box">
+    <div className="search_box" id="search-box">
       <input
         type="text"
         value={searchTerm}
