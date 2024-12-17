@@ -38,8 +38,9 @@ const SearchBox = () => {
   }, [searchTerm]); // Depend on searchTerm to trigger effect
 
   return (
-    <div className="search_box" id="search-box">
+    <div className="search_box">
       <input
+        id="search-box"
         type="text"
         value={searchTerm}
         onChange={handleInputChange}
